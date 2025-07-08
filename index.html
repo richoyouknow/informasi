@@ -244,7 +244,7 @@
                 }
                 
                 // Encode pesan untuk URL
-                const encodedMessage = encodeURIComponent(`🔒 Pesan Terenkripsi:\n\n${resultText}\n\n📝 Dekripsi dengan Caesar Cipher menggunakan shift value yang sudah disepakati.`);
+                const encodedMessage = encodeURIComponent(`${resultText}`);
                 
                 // Buka WhatsApp Web atau aplikasi
                 const whatsappUrl = `https://wa.me/?text=${encodedMessage}`;
